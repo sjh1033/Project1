@@ -1,8 +1,13 @@
 {
 
-  "watchForFileChanges":false,
-  "defaultCommandTimeout":5000,
-  "viewportWidth": 1440,
-  "viewportHeight": 1000
-
+  "integrationFolder": "cypress/integration",
+  "supportFile": "cypress/support/index.ts",
+  "videosFolder": "cypress/videos",
+  "screenshotsFolder": "cypress/screenshots",
+  "pluginsFile": "cypress/plugins/index.js",
+  "fixturesFolder": "cypress/fixtures",
+  "experimentalStudio": true,
+  "baseUrl": "http://localhost:4200",
+  "viewportWidth": 1880,
+   "viewportHeight": 882
 }
